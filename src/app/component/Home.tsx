@@ -1,13 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import Particle from './Particle'
 
 function HomePage() {
   return (
     <div>
       <div className='HomeContainer' id='Home'>
         <div className='HomeLeft'>
-      <Particle/>
+    
           <h1>Hello!</h1>
           <h2>My Name is <span>Ali Asghar</span> </h2>
           <h3>I am <span>Fronted Developer</span></h3>
