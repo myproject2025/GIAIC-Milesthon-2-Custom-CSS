@@ -7,7 +7,6 @@ import AboutPage from "./component/About";
 import ContactPage from "./component/contact";
 
 
-
 export default function Home() {
   const [nav, setNav] = useState(false)
   const openNav = () => setNav(true)
